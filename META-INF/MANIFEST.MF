@@ -11,3 +11,4 @@ Import-Package: it.polito.elite.dog.core.library.model.notification;version="1.0
  it.polito.elite.dog.core.library.util;version="1.0.0",
  org.osgi.framework;version="1.7.0",
  org.osgi.service.event
+Bundle-ActivationPolicy: lazy
