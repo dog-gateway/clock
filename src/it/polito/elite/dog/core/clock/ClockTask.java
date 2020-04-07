@@ -51,7 +51,7 @@ public class ClockTask extends TimerTask
 		ClockTimeNotification tick = new ClockTimeNotification();
 		
 		//create the event to send
-		Event clockTickEvent = EventFactory.createEvent(tick,this.ownerSymbolicName);
+		Event clockTickEvent = EventFactory.createNotificationEvent(tick,this.ownerSymbolicName);
 		
 		//send the event
 		this.eventAdmin.postEvent(clockTickEvent);
